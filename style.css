@@ -9,8 +9,23 @@
 }
 
 .navbar-nav{
-    font-size: 17px;
+    font-size: 17px;   
+    margin-left: auto;
 }
+
+.navbar-brand {
+    position: fixed;
+    top: 10px;      /* Ajusta el espacio desde arriba */
+    left: 10px;   /* <-- Cambia right por left */
+    z-index: 1050;  /* Para que esté sobre otros elementos */
+    transition: transform 0.3s ease; /* Suaviza el movimiento */   
+  }
+
+  .collapse.navbar-collapse {
+    display: flex;
+    align-items: center;
+  }
+  
 
 /*estilos generales*/
 
@@ -76,6 +91,11 @@ text-align: center;
 .hero-principal h2{
     font-size: 1.5rem;
     color: #615151;
+}
+
+.hero-inferior-imagen {
+    max-width: 600px;
+    margin-bottom: 40px; /* Ajusta el valor si quieres */
 }
 
  /*sobre mi*/
@@ -204,6 +224,10 @@ margin-bottom: 40px;
     font-size: 60px;
     margin: 10 px;
 
+}
+
+.bg-azul-oscuro{
+    background-color: #1b1b32 !important;
 }
 
 /*Apdaptable (responsivo)*/

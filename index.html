@@ -24,7 +24,7 @@
 </head>
 <body> 
 <!--Barra de navegacion-->
-<nav class="navbar navbar-expand-md navbar-light">
+<nav class="navbar navbar-expand-md navbar-light id = "inicio">
   <div class="container-fluid">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -35,96 +35,87 @@
       </a>
       <ul class="navbar-nav d-flex justify-content-center align-items-center">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Linuk</a>
+          <a class="nav-link" href="#presentación">Presentación</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Diseño</a>
+          <a class="nav-link" href="#perfil">Perfil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Programación</a>
+          <a class="nav-link" href="#perfil">Formación</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Mensaje</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Temas</a>
-        </li>
-      </ul>
-      <!--
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    -->
+          <a class="nav-link" href="#proyectos">Proyectos</a>
+        </li>        
+      </ul>      
     </div>
   </div>
 </nav>
 <!-- Sección Hero-->
-<section class="hero align-items-stretch">
+<section class="hero align-items-stretch"> 
 <div class = "hero-principal d-flex flex-column justify-content-center align-items-center" >
   <img class = "hero-imagen-desarrollador rounded-circle" src="imagenes/desarrollador-ejemplo.png" alt="Foto de Pablo Almada">
   <h1>Hola, soy Pablo Almada</h1>
-  <h2>Desarrollo sitios webs sobre programación y temas espirituales.</h2>
+  <h2>Desarrollo aplicaciones web, recursos educativos digitales y reflexiones espirituales.</h2>
 </div>
 <div class="hero-inferior">
-<img class = "hero-inferior-imagen img-fluid" src ="imagenes/imágen - inicio.png">
+<img class = "hero-inferior-imagen img-fluid" src ="imagenes/inicio.png">
 </div>
 </section>
 <!--Sobre mi-->
-<section class = "sobre-mi seccion-oscura">
+<section class = "sobre-mi seccion-oscura" id = "presentación">
   <div class = "contenedor">
     <h2 class = "seccion-titulo">Presentación del autor</h2>
-    <p class = "seccion-texto"> Soy licenciado en tecnología educativa y analista uniersitario de sistemas. Mi área de trabajo es el desarrollo de proyectos con la intervención de metodogoías de trabajo colaborativo y herramientas digitales. Desde el 2020 estoy incursionando en la tecnología educativa por ser un tema de impotancia debido a la irrupcion de las tecnologias en el campo educativo. Es necesario adpatar el proceso de enseñanza y aprendizaje para el beneficio de los actores educativos.</p>
+    <p class = "seccion-texto"> Soy licenciado en Tecnología Educativa y Analista Universitario de Sistemas. Me especializo en el desarrollo de aplicaciones web y en la creación de recursos educativos, integrando metodologías de trabajo colaborativo y herramientas digitales. Desde 2020, me he enfocado en el campo de la tecnología educativa, un área clave ante la irrupción de las tecnologías en el ámbito educativo. Considero fundamental adaptar los procesos de enseñanza y aprendizaje para favorecer a todos los actores del sistema educativo.</p>
   </div>
 </section>
 
 <!--Experiencia-->
-<section class = "experiencia seccion-clara">
+<section class = "experiencia seccion-clara" id = "perfil">
   <div class = "container text-center">
   <div class = "row">
     <!--Desarrollo web-->
     <div class = "columna col-12 col-md-4">
       <i class="bi bi-laptop"></i>
-      <p class="experiencia-titulo">Derrarrollo web</p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, commodi ratione eum, minus neque repellat, velit fugit fuga totam inventore facere quibusdam. Beatae consequuntur ab veniam neque illo modi perferendis?</p>
+      <p class="experiencia-titulo">Derrarrollador backend</p>
+      <p>Desarrollo backend con Python utilizando frameworks como FastAPI y Django, junto con bases de datos MySQL. Trabajo en la construcción de aplicaciones web funcionales, priorizando una estructura clara y un buen manejo de la lógica del servidor. Apunto a soluciones escalables y mantenibles en cada proyecto. Me esfuerzo por aplicar prácticas responsables en la gestión de datos y en aspectos esenciales de seguridad.</p>
       <div class = "badges-contenedor">
-        <span class="badge text-bg-primary">HTML</span>
-        <span class="badge text-bg-primary">CSS</span>
-        <span class="badge text-bg-primary">JavaScript</span>
-        <span class="badge text-bg-primary">React</span>
+        <span class="badge text-bg-primary">Python</span>
+        <span class="badge text-bg-primary">FastAPI</span>
+        <span class="badge text-bg-primary">Django</span>
+        <span class="badge text-bg-primary">MySQL</span>
       </div>
     </div>
     <!--Artículos-->
     <div class = "columna col-md-4">      
       <i class="bi bi-laptop"></i>
-      <p class="experiencia-titulo">Artículos</p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, commodi ratione eum, minus neque repellat, velit fugit fuga totam inventore facere quibusdam. Beatae consequuntur ab veniam neque illo modi perferendis?</p>
+      <p class="experiencia-titulo">Tecnólogo educativo</p>
+      <p>Como tecnólogo educativo, integro herramientas digitales como Moodle y metodologías innovadoras, interactuando con tecnologías de desarrollo para potenciar la enseñanza y el desarrollo en instituciones educativas y empresas. Diseño recursos interactivos y estrategias que incorporan TIC de forma significativa, promoviendo el trabajo colaborativo. Fomento habilidades como la motivación, el pensamiento crítico y la colaboración en diversos contextos educativos y organizacionales.</p>
       <div class = "badges-contenedor">
-        <span class="badge text-bg-primary">Escribir</span>
-        <span class="badge text-bg-primary">Editar</span>
-        <span class="badge text-bg-primary">Blogs</span>        
+        <span class="badge text-bg-primary">Moodle</span>
+        <span class="badge text-bg-primary">Metodologias</span>
+        <span class="badge text-bg-primary">Habilidades</span>        
       </div>
     </div>
     <!--Estudiante-->
     <div class = "columna col-md-4">      
       <i class="bi bi-laptop"></i>
       <p class="experiencia-titulo">Formación</p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, commodi ratione eum, minus neque repellat, velit fugit fuga totam inventore facere quibusdam. Beatae consequuntur ab veniam neque illo modi perferendis?</p>
+      <p>Soy Licenciado en Tecnología Educativa y Analista Universitario de Sistemas, ambos títulos obtenidos en la Universidad Tecnológica Nacional (UTN) de Argentina. Mi formación académica me permite integrar la tecnología en la educación y desarrollar soluciones tecnológicas eficientes. Estoy comprometido con el aprendizaje continuo y la aplicación de mis conocimientos en proyectos educativos y tecnológicos.</p>
       <div class = "badges-contenedor">
         <span class="badge text-bg-primary"></span>
+        <span class="badge text-bg-primary">Licenciado</span>
         <span class="badge text-bg-primary">Analista</span>
-        <span class="badge text-bg-primary">Tecnólogo</span>
-        <span class="badge text-bg-primary">Teólogo</span>
+        <span class="badge text-bg-primary">UTN</span>
       </div>
     </div>
   </div>
 </div>
 </section>
 <!--Proyectos-->
-<section class="proyectos-recientes seccion-clara d-flex flex-column">
+<section class="proyectos-recientes seccion-clara d-flex flex-column" id = "proyectos">
   <h2 class= "seccion-titulo texto-negro">Mis proyectos recientes</h2>
   <h3 class = "seccion-descripcion">Estos son algunos proyectos que he creado ...</h3>
   <div class="container text-center proyectos-contenedor">
@@ -132,9 +123,43 @@
       <!--Proyecto 1-->
       <div class = "col-12 col-md-6 col-lg-4">
         <div class ="proyecto">
-          <img src = "imagenes/revista-digital.jpg" alt = "Proyecto 1">
+          <img src = "imagenes/simuladorprocesos.png" alt = "Proyecto 1">
             <div class = "overlay">
               <p>Proyecto 1</p>
+              <div class = "iconos-contenedor">
+                <a href="https://github.com/pabloalmadatiiselam/simulador-de-procesos" target ="_blank" rel = "noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://frightening-miniature-creative.anvil.app" target="_blank" rel = "noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>              
+            </div>
+        </div>  
+      </div> 
+      <!--Proyecto 2-->
+      <div class = "col-12 col-md-6 col-lg-4">
+        <div class ="proyecto">
+          <img src = "imagenes/coolrefrigeraciones.png" alt = "Proyecto 2">
+            <div class = "overlay">
+              <p>Proyecto 2</p>
+              <div class = "iconos-contenedor">
+                <a href="#" target ="_blank" rel = "noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://coolrefrigeraciones.tilda.ws/" target="_blank" rel = "noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>              
+            </div>
+        </div>  
+      </div> 
+      <!--Proyecto 3-->
+      <div class = "col-12 col-md-6 col-lg-4">
+        <div class ="proyecto">
+          <img src = "imagenes/revista-digital.jpg" alt = "Proyecto 3">
+            <div class = "overlay">
+              <p>Proyecto 3</p>
               <div class = "iconos-contenedor">
                 <a href="https://github.com/pabloalmadatiiselam/revistadigital" target ="_blank" rel = "noopener noreferrer">
                   <i class="bi bi-github"></i>
@@ -148,9 +173,9 @@
       </div> 
       <div class = "col-12 col-md-6 col-lg-4">
         <div class ="proyecto">
-          <img src = "imagenes/sitio web nuevos medios.jpg" alt = "Proyecto 2">
+          <img src = "imagenes/sitio web nuevos medios.jpg" alt = "Proyecto 4">
             <div class = "overlay">
-              <p>Proyecto 2</p>
+              <p>Proyecto 4</p>
               <div class = "iconos-contenedor">
                 <a href="https://drive.google.com/drive/folders/1ePtOBsaZs3TvC3ss6KbHAigk2eCxITLx?usp=drive_link" target ="_blank" rel = "noopener noreferrer">
                   <i class="bi bi-github"></i>
@@ -164,9 +189,9 @@
       </div> 
       <div class = "col-12 col-md-6 col-lg-4">
         <div class ="proyecto">
-          <img src = "imagenes/sitio web marvel 3.jpg" alt = "Proyecto 3">
+          <img src = "imagenes/sitio web marvel 3.jpg" alt = "Proyecto 5">
             <div class = "overlay">
-              <p>Proyecto 3</p>
+              <p>Proyecto 5</p>
               <div class = "iconos-contenedor">
                 <a href="https://github.com/pabloalmadatiiselam/fe-apirestjs" target ="_blank" rel = "noopener noreferrer">
                   <i class="bi bi-github"></i>
@@ -180,9 +205,9 @@
       </div>
       <div class = "col-12 col-md-6 col-lg-4">
         <div class ="proyecto">
-          <img src = "imagenes/sitio web pc.jpg" alt = "Proyecto 4">
+          <img src = "imagenes/sitio web pc.jpg" alt = "Proyecto 6">
             <div class = "overlay">
-              <p>Proyecto 4</p>
+              <p>Proyecto 6</p>
               <div class = "iconos-contenedor">
                 <a href="https://github.com/pabloalmadatiiselam/pc3" target ="_blank" rel = "noopener noreferrer">
                   <i class="bi bi-github"></i>
@@ -196,9 +221,9 @@
       </div> 
       <div class = "col-12 col-md-6 col-lg-4">
         <div class ="proyecto">
-          <img src = "imagenes/posadastodorio.jpg" alt = "Proyecto 5">
+          <img src = "imagenes/posadastodorio.jpg" alt = "Proyecto 7">
             <div class = "overlay">
-              <p>Proyecto 5</p>
+              <p>Proyecto 7</p>
               <div class = "iconos-contenedor">
                 <a href="https://github.com/pabloalmadatiiselam/ptr" target ="_blank" rel = "noopener noreferrer">
                   <i class="bi bi-github"></i>
@@ -212,9 +237,9 @@
       </div> 
       <div class = "col-12 col-md-6 col-lg-4">
         <div class ="proyecto">
-          <img src = "imagenes/angelita.jpg" alt = "Proyecto 6">
+          <img src = "imagenes/angelita.jpg" alt = "Proyecto 8">
             <div class = "overlay">
-              <p>Proyecto 6</p>
+              <p>Proyecto 8</p>
               <div class = "iconos-contenedor">
                 <a href="https://github.com/pabloalmadatiiselam/ag" target ="_blank" rel = "noopener noreferrer">
                   <i class="bi bi-github"></i>
@@ -229,9 +254,9 @@
       
       <div class = "col-12 col-md-6 col-lg-4">
         <div class ="proyecto">
-          <img src = "imagenes/paresbiomagnéticos.png" alt = "Proyecto 7">
+          <img src = "imagenes/paresbiomagnéticos.png" alt = "Proyecto 9">
             <div class = "overlay">
-              <p>Proyecto 7</p>
+              <p>Proyecto 9</p>
               <div class = "iconos-contenedor">
                 <a href="https://github.com/pabloalmadatiiselam/ee" target ="_blank" rel = "noopener noreferrer">
                   <i class="bi bi-github"></i>
@@ -246,9 +271,9 @@
 
       <div class = "col-12 col-md-6 col-lg-4">
         <div class ="proyecto">
-          <img src = "imagenes/gp.png" alt = "Proyecto 8">
+          <img src = "imagenes/gp.png" alt = "Proyecto 10">
             <div class = "overlay">
-              <p>Proyecto 8</p>
+              <p>Proyecto 10</p>
               <div class = "iconos-contenedor">
                 <a href="https://github.com/pabloalmadatiiselam/gp.git" target ="_blank" rel = "noopener noreferrer">
                   <i class="bi bi-github"></i>
@@ -263,9 +288,9 @@
 
       <div class = "col-12 col-md-6 col-lg-4">
         <div class ="proyecto">
-          <img src = "imagenes/infylac.png" alt = "Proyecto 9">
+          <img src = "imagenes/infylac.png" alt = "Proyecto 11">
             <div class = "overlay">
-              <p>Proyecto 9</p>
+              <p>Proyecto 11</p>
               <div class = "iconos-contenedor">
                 <a href="https://github.com/pabloalmadatiiselam/infylac.git" target ="_blank" rel = "noopener noreferrer">
                   <i class="bi bi-github"></i>
@@ -281,6 +306,10 @@
     </div>
   </div> 
 </section>
+<footer class="bg-azul-oscuro text-white text-center py-3 mt-4">
+  <small>Copyright © 2025. Todos los derechos reservados.</small>
+</footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>   
+<script src="logo-move.js"></script>
 </body>
 </html>
