@@ -93,9 +93,18 @@ text-align: center;
     color: #615151;
 }
 
+.hero-inferior {
+    display: flex;
+    justify-content: center;
+}
+
+
 .hero-inferior-imagen {
+    width: 100%;
     max-width: 600px;
-    margin-bottom: 40px; /* Ajusta el valor si quieres */
+    height: auto;
+    margin-bottom: 40px;
+    display: block;   
 }
 
  /*sobre mi*/
