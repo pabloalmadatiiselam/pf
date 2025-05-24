@@ -107,6 +107,20 @@ text-align: center;
     display: block;   
 }
 
+/* Metodo tradicional si hero-inferior ni display flec ni justifi-content
+Funciona pero cuando uno agregas mas elemento en la caja div hero-inferior puede ser
+que ya no funcion bien. Ademas es un metodo mas bien y mas complicado.
+
+.hero-inferior-imagen {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+
  /*sobre mi*/
 .sobre-mi{
    height: 500px;
