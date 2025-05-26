@@ -260,7 +260,13 @@ margin-bottom: 40px;
     .navbar-brand{
         display: none;
     }    
+    
+    .proyectos-recientes {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+  }
 }
+
 
 @media screen and (min-width: 700x){
     .hero-inferior-imagen{
