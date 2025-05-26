@@ -129,7 +129,9 @@ que ya no funcion bien. Ademas es un metodo mas bien y mas complicado.
 
 .sobre-mi .contenedor{
 max-width: 600px;
+margin: 0 auto;/*no es neceario, pero es una buena practica  incluirlo cuando usas max-width, para garantizar que el bloque siempre esté perfectamente centrado en pantallas grandes y no dependa solo del alineado de texto.*/
 text-align: center;
+padding: 20px;
 }
 
 
