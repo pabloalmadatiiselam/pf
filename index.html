@@ -24,7 +24,7 @@
 </head>
 <body> 
 <!--Barra de navegacion-->
-<nav class="navbar navbar-expand-md navbar-light" id= "inicio">
+<!--<nav class="navbar navbar-expand-md navbar-light" id= "inicio">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
         <img src="imagenes/icono.png" width= "50" alt="Logo de la página web">
@@ -34,9 +34,9 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbar-toggler">
-      <!--<a class="navbar-brand" href="#">-->
-        <!--<img src="imagenes/icono.png" width= "50" alt="Logo de la página web">-->
-      <!--</a>-->
+      <a class="navbar-brand" href="#">
+        <img src="imagenes/icono.png" width= "50" alt="Logo de la página web">
+      </a>
       <ul class="navbar-nav d-flex justify-content-center align-items-center">      
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
@@ -56,7 +56,40 @@
       </ul>      
     </div>
   </div>
+</nav>-->
+<nav class="navbar navbar-expand-md navbar-light" id="inicio">
+  <div class="container-fluid">
+    <!-- LOGO SIEMPRE VISIBLE EN LA BARRA -->
+    <a class="navbar-brand" href="#">
+      <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
+    </a>
+    <!-- BOTÓN HAMBURGUESA -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- MENÚ COLAPSABLE -->
+    <div class="collapse navbar-collapse" id="navbar-toggler">
+      <ul class="navbar-nav d-flex justify-content-center align-items-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#presentación">Presentación</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#perfil">Perfil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#perfil">Formación</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#proyectos">Proyectos</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </nav>
+
 <!-- Sección Hero-->
 <section class="hero align-items-stretch"> 
 <div class = "hero-principal d-flex flex-column justify-content-center align-items-center" >
