@@ -289,6 +289,13 @@ margin-bottom: 40px;
         z-index: 1040; /* menor que el botón */
         /* NO poner position aquí */
     }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.show {
+        display: block !important;
+    }
   
 }
 
