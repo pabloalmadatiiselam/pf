@@ -21,10 +21,10 @@
     transition: transform 0.3s ease; /* Suaviza el movimiento */   
   }
 
-  .collapse.navbar-collapse {
+  /*.collapse.navbar-collapse {
     display: flex;
     align-items: center;
-  }
+  }*/
   
 
 /*estilos generales*/
