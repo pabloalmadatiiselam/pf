@@ -278,6 +278,17 @@ margin-bottom: 40px;
         display: block;
         padding: 12px 0;
     }  
+
+    .navbar-toggler {
+        margin-bottom: 4px; /* Ajusta el valor según convenga */
+        position: relative; /* Para que el margen funcione bien */
+        z-index: 1051; /* Asegura que el botón esté por encima del menú */
+    }
+
+    .navbar-collapse {
+        z-index: 1050; /* Menor que el botón */
+        position: relative;
+    }
   
 }
 
